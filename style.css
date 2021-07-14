@@ -1,0 +1,107 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* .....top banner.... */
+
+.half-width {
+  display: flex;
+  background-color: blue;
+}
+.half-width img {
+  width: 50%;
+  height: 438px;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 100px;
+  margin-left: 156px;
+  color: white;
+}
+.link-button {
+  color: wheat;
+  text-decoration: none;
+  margin-top: 364px;
+  margin-left: 156px;
+  padding: 15px 30px;
+  border-radius: 25px;
+  background-image: linear-gradient(red, rgb(0, 255, 234));
+}
+
+/* top-players */
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  width: 330px;
+  margin-left: 170px;
+  padding: 15px;
+}
+.player {
+  box-shadow: 0px 0px 20px;
+}
+.player img {
+  width: 300px;
+  height: 256px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+p {
+  width: 300px;
+  height: 154px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+h3 {
+  font-size: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* ....Highlights.... */
+
+.Highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  ggrid-gap: 30px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 10px;
+  margin-left: 40px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.last-img img {
+  width: 500px;
+  height: 400px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.Highlights p {
+  margin-left: 100px;
+  margin-right: 50px;
+}
+.Highlights h2 {
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+/* ......footer... */
+
+.logo img {
+  width: 500px;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 400px;
+}
+.Icons {
+  text-align: center;
+}
+.Copyright {
+  text-align: center;
+}
